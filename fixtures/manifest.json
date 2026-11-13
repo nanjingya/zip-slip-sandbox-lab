@@ -1,0 +1,10 @@
+{
+  "root": "/safe/root",
+  "entries": [
+    {"path": "ok/a.txt", "size": 3},
+    {"path": "../etc/passwd", "size": 10},
+    {"path": "/abs/x", "size": 1},
+    {"path": "nested/../b.txt", "size": 2},
+    {"path": "ok/../ok/c.txt", "size": 2}
+  ]
+}
